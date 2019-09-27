@@ -198,7 +198,7 @@ include "partials/nav.php";
           </div>
         </form>
 
-        <a href="#" class="s-search-advances" title="<?php echo __('Advanced Search') ?>"><?php echo __('Advanced Search') ?></a>
+        <a href="#" class="s-search-advances" title="<?php echo __('Advanced Search') ?>"><?php echo __('<b>klik untuk pencarian detail</b>') ?></a>
 
       </div>
 
