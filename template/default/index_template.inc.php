@@ -190,7 +190,7 @@ include "partials/nav.php";
             <p class="s-search-info">
             <?php 
               //echo __('start it by typing one or more keywords for title, author or subject'); 
-              echo __('mulai dengan mengetik satu atau lebih kata kunci untuk judul, penulis atau subjek'); 
+              echo __('bisa mengetik satu atau lebih kata kunci untuk judul, penulis atau subjek'); 
             ?>
             </p>
             <input type="text" class="s-search animated fadeInUp delay4" id="keyword" name="keywords" value="" lang="<?php echo $sysconf['default_lang']; ?>" aria-hidden="true" autocomplete="off">

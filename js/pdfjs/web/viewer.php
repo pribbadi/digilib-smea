@@ -29,7 +29,6 @@ var pdfFileToLoad = '<?php echo $file_loc_url; ?>';
 </head>
 <body tabindex="1">
     <div id="outerContainer" class="loadingInProgress">
-
       <div id="sidebarContainer">
         <div id="toolbarSidebar">
           <div class="splitToolbarButton toggled">

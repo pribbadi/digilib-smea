@@ -34,9 +34,9 @@
 
   <!-- Availability
   ============================================= -->  
-  <h3><i class="fa fa-check-circle-o"></i> <?php echo __('Availability'); ?></h3>
+ <!--  <h3><i class="fa fa-check-circle-o"></i> <?php echo __('Availability'); ?></h3>
   <?php echo ($availability) ? $availability : '<p class="s-alert">'.__('No copy data').'</p>'; ?>
-  <br>
+  <br> -->
 
   <!-- Item Details
   ============================================= -->  
@@ -160,14 +160,14 @@
 
   <!-- Related biblio data
   ============================================= -->  
-  <h3><i class="fa fa-circle-o"></i> <?php echo __('Other version/related'); ?></h3>
+  <!-- <h3><i class="fa fa-circle-o"></i> <?php echo __('Other version/related'); ?></h3>
   <?php echo ($related) ? $related : '<p class="s-alert">'.__('No other version available').'</p>'; ?>
-  <br>
+  <br> -->
 
   <?php if ($file_att) : ?>
   <!-- Attachment
   ============================================= -->  
-  <h3><i class="fa fa-arrow-circle-o-down"></i> <?php echo __('File Attachment'); ?></h3>
+  <h3><i class="fa fa-arrow-circle-o-down"></i> <?php echo __('File Attachment')." (klik berkas dibawah untuk membaca)"; ?></h3>
   <div itemprop="associatedMedia">
     <div class="s-download">
       <?php echo $file_att; ?>
